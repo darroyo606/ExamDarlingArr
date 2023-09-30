@@ -25,6 +25,22 @@ el resultado de esto es el siguiente:
 Para estos pasos es importante aclarar que nuestro Requirements.txt ya contiene lo siguiente:
 requests==2.31.0
 
+# Insert Base de datos se crea un archivo mongodb.py y un archivo .env
+En el archivo .env se encuentra:
+
+
+MONGO_USER=tu usuario
+MONGO_PASSWORD=tu contraseña
+
+La respuesta que tenemos si se conecta de forma adecuada es la siguiente:
+![image](https://github.com/darroyo606/ExamDarlingArr/assets/55005126/b538b2cf-2120-4e1e-aaa8-c40b32b26913)
+
+
+# Creamos un archivo deprati_data.py
+
+Aqui realizaremos nuestro desarrollo para que los datos obtenidos se guarden en la base de datos llamada DarExam y en la tabla productos
+![image](https://github.com/darroyo606/ExamDarlingArr/assets/55005126/78626430-a359-44a2-be01-52f2ca69e0c5)
+
 
 
 
